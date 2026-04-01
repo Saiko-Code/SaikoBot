@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  saikobot:
+    build: .
+    container_name: saikobot
+    restart: always
+    env_file:
+      - .env
+    # Si tu as besoin de lier le bot à une base de données MySQL locale avec pma, 
+    # tu peux décommenter les lignes ci-dessous.
+    # depends_on:
+    #   - db
+    
+  # db:
+  #   image: mysql:8.0
+  #   container_name: saikobot-db
+  #   restart: always
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: root
+  #     MYSQL_DATABASE: saikobot
+  #   ports:
+  #     - "3306:3306"
+  #   volumes:
+  #     - db-data:/var/lib/mysql
+
+# volumes:
+#   db-data:
