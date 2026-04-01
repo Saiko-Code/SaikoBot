@@ -5,8 +5,7 @@ services:
     build: .
     container_name: saikobot
     restart: always
-    env_file:
-      - .env
+
     # Si tu as besoin de lier le bot à une base de données MySQL locale avec pma, 
     # tu peux décommenter les lignes ci-dessous.
     # depends_on:
