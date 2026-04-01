@@ -51,13 +51,18 @@ Voici la liste des variables d'environnement à obligatoirement renseigner dans 
 
 | Variable | Description | Exemple / Valeur |
 | :--- | :--- | :--- |
+| `BOT_ID` | L'ID de votre bot Discord. | `10696865...` |
 | `TOKEN` | Le token de votre bot discord. | `MTIzNDU2Nz...` |
-| `GUILD_ID` | L'ID de votre serveur discord principal. | `81014168...` |
-| `DB_HOST` | L'IP / URL de votre base de données locale ou distante. | `192.168.1.100` |
+| `GUILD_ID` | L'ID de votre serveur discord principal. | `76524426...` |
+| `PTERODACTYL_API_KEY` | Clé API globale (Application) Pterodactyl. | `ptlc_oEizs...` |
+| `PTERODACTYL_URL` | L'URL de votre panel Pterodactyl. | `https://panel.votresite.fr` |
+| `PTERODACTYL_CLIENT_API_KEY` | Clé API client Pterodactyl. | `ptla_dpruA...` |
+| `DB_HOST` | L'IP / URL de votre base de données locale ou distante. | `192.168.1.106` |
 | `DB_PORT` | Le port de la base de données. | `3306` |
-| `DB_USER` | Votre nom d'utilisateur MySQL. | `saiko` |
-| `DB_PASSWORD` | Le mot de passe de cet utilisateur. | `mon_mot_de_passe` |
-| `DB_NAME` | Le nom précis de la base contenant les tables de votre bot. | `saiko_bot` |
+| `DB_USER` | Votre nom d'utilisateur MySQL. | `user` |
+| `DB_PASSWORD` | Le mot de passe de cet utilisateur. | `password` |
+| `DB_NAME` | Le nom précis de la base contenant les tables de votre bot. | `database` |
+| `FABRIC_EXPORT` | L'adresse d'export de votre serveur Minecraft. | `192.168.1.105:51218` |
 
 ---
 
