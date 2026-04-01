@@ -1,0 +1,18 @@
+# Dépendances (le dossier le plus lourd, jamais sur Git)
+node_modules/
+jspm_packages/
+
+# Fichiers de configuration sensibles (TON TOKEN DISCORD)
+.env
+config.json
+*.log
+
+# Dossiers de build ou de debug
+dist/
+build/
+.npm
+.eslintcache
+
+# Fichiers système
+.DS_Store
+Thumbs.db
