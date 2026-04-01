@@ -57,12 +57,12 @@ Voici la liste des variables d'environnement à obligatoirement renseigner dans 
 | `PTERODACTYL_API_KEY` | Clé API globale (Application) Pterodactyl. | `ptlc_oEizs...` |
 | `PTERODACTYL_URL` | L'URL de votre panel Pterodactyl. | `https://panel.votresite.fr` |
 | `PTERODACTYL_CLIENT_API_KEY` | Clé API client Pterodactyl. | `ptla_dpruA...` |
-| `DB_HOST` | L'IP / URL de votre base de données locale ou distante. | `192.168.1.106` |
+| `DB_HOST` | L'IP / URL de votre base de données locale ou distante. | `ip machine` |
 | `DB_PORT` | Le port de la base de données. | `3306` |
 | `DB_USER` | Votre nom d'utilisateur MySQL. | `user` |
 | `DB_PASSWORD` | Le mot de passe de cet utilisateur. | `password` |
 | `DB_NAME` | Le nom précis de la base contenant les tables de votre bot. | `database` |
-| `FABRIC_EXPORT` | L'adresse d'export de votre serveur Minecraft. | `192.168.1.105:51218` |
+| `FABRIC_EXPORT` | L'adresse d'export de votre serveur Minecraft. | `ip:port` |
 
 ---
 
